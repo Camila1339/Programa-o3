@@ -185,12 +185,13 @@ class Biblioteca {
 // Cenário Completo:
 $biblioteca = new Biblioteca("Biblioteca Comunitária");
 
-$livro1 = new Livro("Dom Quixote", "Miguel de Cervantes", 1605);
-$livro2 = new Livro("1984", "George Orwell", 1949);
-$livro3 = new Livro("Orgulho e Preconceito", "Jane Austen", 1813);
+$livro1 = new Livro("It - A Coisa", "It - A Coisa", 1986);
+$livro2 = new Livro("As Mentiras que os Homens Contam", "Luis Fernando Verissimo
+", 2000);
+$livro3 = new Livro("O clube dos suicidas", "Robert Louis Stevenson", 1878);
 
-$leitor1 = new Leitor("João da Silva", "joao@example.com", "123-456-7890");
-$leitor2 = new Leitor("Maria Souza", "maria@example.com", "987-654-3210");
+$leitor1 = new Leitor("Giovana Graziadei", "giovana_g2@example.com", "123-456-7890");
+$leitor2 = new Leitor(" Camila do Amaral", "camiss@example.com", "987-654-3210");
 
 $biblioteca->adicionarLivro($livro1);
 $biblioteca->adicionarLivro($livro2);
