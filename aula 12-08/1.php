@@ -14,7 +14,7 @@ class Veiculo {
 }
 
 class Carro extends Veiculo {
-    // Atributo específico
+    
     public $tipoCombustivel;
 
     public function mostrarCombustivel() {
@@ -37,7 +37,7 @@ class Moto extends Veiculo {
         echo "Deu grau!";
     }
 
-    // Sobrescrevendo o método andar
+    // sobrescrevendo o método andar
     public function andar() {
         echo "Moto está em movimento";
     }
@@ -49,7 +49,7 @@ class Caminhao extends Veiculo {
     }
 }
 
-// Exemplo de uso
+
 $carro = new Carro();
 $carro->modelo = "Gol";
 $carro->cor = "Vermelho";
@@ -121,7 +121,7 @@ $caminhao->parar();
 
 echo "<hr>";
 
-// Instanciando um Carro Elétrico
+// instanciando um Carro Elétrico
 $carroEletrico = new CarroEletrico();
 $carroEletrico->modelo = "Tesla Model X";
 $carroEletrico->cor = "Preto";
@@ -139,3 +139,4 @@ $carroEletrico->carregarBateria();
 
 echo "<hr>";
 ?>
+
